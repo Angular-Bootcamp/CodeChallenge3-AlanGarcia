@@ -1,0 +1,22 @@
+<div>
+    <div class="container-fluid">
+        <section class="col-xs-12 evol" ng-repeat="pokemon in pokemons2.data">
+            <img class="col-xs-3 evol-1 img-responsive" ng-src="{{pokemon.Url}}.png" alt="{{pokemon.forms.name}}"/>
+            <div class="col-xs-6 pok-nom-hab">
+                <div class="col-xs-12 nom-pok-evo" >{{pokemon.pokemon_species.name}}</div>
+                <button class="col-xs-4 bot2">{{pokemon.types}}</button>
+                <button class="col-xs-4 bot2">{{pokemon.type2}}</button>
+            </div>
+            <div class="col-xs-3 num-evo">
+                <div class="">#{{pokemon.url.pokemon-forms}}</div>
+                <img class="" src="images/empty-plate.png" alt="" ng-click="CaughtingPokemon(pokemon3)"/>
+                <img class="" src="images/star.png" alt=""/>
+            </div>
+            <div>
+                {{pokemon3.status}}
+            </div>
+        </section>
+    </div>
+</div>
+        
+

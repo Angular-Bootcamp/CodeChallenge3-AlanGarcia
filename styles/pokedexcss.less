@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@basefontsize: 16px;
+@headerfontsize: 20px;
+@headercolor: #C2185B;
+@basefontfamily: Helvetica;
+
+.container-fluid {
+    padding: 0 0 0 0 !important;
+}
+.navbar-default {
+    background-color: #E91E63;
+    text-align: center;
+    margin: 0 0 10px 0;
+    min-height: 40px;
+    border: 0;
+    .navbar-nav {
+        li {
+            border-bottom: 1px solid #fff;
+            color: #fff !important;
+                a {
+                    color: #fff;
+                }
+        }
+    }
+    .navbar-toggle {
+        background-color: #E91E63;
+        float: left;
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-bottom: 8px;
+        border: 0;
+        border-radius: 0;
+        &:focus {
+            background-color: #E91E63;
+            background-image: url('../images/multiply.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: auto auto;
+        }
+    }
+    button {
+            background-image: url('../images/menu1.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: auto auto;
+        }
+}
+
+
+header {
+  margin: 0;
+  width: 100%;
+  height: 3em;
+  top: 0;
+  left: 0;
+  background-color: @headercolor;
+  float: left;
+    a {
+        display: block;
+        background-image: url('../images/keyboard-left-arrow-button.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 10%;
+        height: 100%;
+        margin: 0;
+        padding: 0 0 0 0;
+        float: left;
+        }
+    .head1 {
+        font-size: 100%;
+        font-weight: normal;
+        color: white;
+        margin: 0 !important;
+        width: 90%;
+        padding: 12px 0 0 35% !important;
+        float: left;
+        }
+  }
+/*
+.row .col-xs-4 .pok-pic {
+     margin: 0 !important;
+     width: 100%;
+     height: auto;
+     float: left;
+     padding: 50% 0 0 20%;
+     text-align: center;
+     }*/
+.pok-pic {
+    
+    height: 10em;
+    width: auto;
+    margin: 5% 0 0 5%;
+    padding: 0;
+    background-image: url('../images/Charmander.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: auto auto;
+}
+#pok-top {
+    width: 100%;
+    margin: 15px 0 15px 0 !important;
+    height: auto;
+    float: left;
+  .col-xs-8 {
+    background-color: white;
+    left: 0;
+    margin: 0;
+    height: 100%;
+    
+    .pok-nom {
+       font-size: 100%;
+       font-weight: bold;
+       color: #E91E63;
+        }
+    .pok-med {
+       margin-top: 4px;
+       font-size: 80%;
+       font-weight: bold;
+       color: #999999;
+        }
+    .pok-inf {
+       margin-top: 8px;
+       font-size: 75%;
+       font-weight: bold;
+       color: #999999;
+        }
+    .pok-hab {
+       margin-top: 8px;
+       font-size: 75%;
+       font-weight: bold;
+       .bot {
+           margin: 0 5px 0 10px;
+           border: none;
+           border-radius: 6px 6px 6px 6px;
+           width: auto;
+           background-color: #E65C5C;
+           color: white;
+           text-align: center;
+          &:first-of-type{
+              margin-left: 0;
+          }
+          &:hover {
+                background-color: #964542;
+            }
+       }
+   }
+  }
+}
+div .sub-head {
+  display: block;
+  margin: 0 !important;
+  font-size: 100%;
+  font-weight: normal;
+  color: white;
+  width: 100%;
+  height: 2em !important;
+  padding-top: 0.3em !important;
+  background-color: #949494 !important;
+  height: auto;
+  float: left;
+  }
+section.pok-inf-gen0 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    &:first-of-type{
+        border-bottom: 1px solid #999999;
+        }
+    }
+section .pok-inf-gen1 {
+      margin: 0;
+      padding: 0;
+      left: 0;
+      font-size: 100%;
+      font-weight: bold;
+      color: #999999;
+      float:left;
+      }
+
+section .pok-inf-gen2{
+      margin: 0;
+      padding-left: 10%;
+      left: 0;
+      font-size: 100%;
+      font-weight: normal;
+      color: #999999;
+      float:left;
+      }
+section.evol {
+    border-bottom: 0.5px solid #999999;
+    width: 100%;
+    height: 4.44em;
+    float: left;
+    padding: 0 0 0 0 !important;
+    }
+.evol-1 {
+        //display: inline;
+        max-width: 100%;
+        height: 100%;
+        //width: auto;
+        padding: 1px 1px 1px 1px;
+        //background-image: url('../images/Charmander.png');
+        //background-position: center center;
+        //background-repeat: no-repeat;
+        //background-size: auto auto;
+        float: left;
+    }
+.evol-2 {
+        max-width: 100%;
+        height: 100%;
+        //width: auto;
+        padding: 1px 1px 1px 1px;
+        background-image: url('../images/Charmeleon.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+    }
+.evol-3 {
+        max-width: 100%;
+        height: 100%;
+        //width: auto;
+        padding: 1px 1px 1px 1px;
+        background-image: url('../images/Charizard.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+    }
+.bot2 {
+           margin: 1px 10px 1px 0;
+           font-size: 80%;
+           border: none;
+           border-radius: 6px 6px 6px 6px;
+           width: auto;
+           background-color: #E65C5C;
+           color: white;
+           text-align: center;
+           float: left;
+           &:hover {
+                background-color: #964542;
+            }
+}
+.num-evo {
+    display: inline;
+    font-size: 80%;
+    font-weight: bold;
+    color: #999999;
+    margin: 0;
+    height: 100%;
+    padding: .8em .8em 0 0 !important;
+    float: left;
+    text-align: right;
+}
+.nom-pok-evo {
+    display: inline;
+    margin: 0;
+    height: 50%;
+    padding: 6px 0 6px 0 !important;
+    font-size: 100%;
+    font-weight: normal;
+    color: #999999;
+    float: left;
+}
+.pok-nom-hab {
+    display: inline;
+    margin: 0 !important;
+    height: 100%;
+    padding: 0 0 0 0 !important;
+    float: left;
+}
